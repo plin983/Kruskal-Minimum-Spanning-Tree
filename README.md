@@ -1,7 +1,7 @@
 # Kruskal-Minimum-Spanning-Tree
-This project is implementation of Kruskal’s algorithm for finding a minimum cost spanning tree.
+This project is implementation of Kruskal’s algorithm for finding a minimum cost spanning tree.<br>
 A Class hold map data which reading from a text file line by line then stored in a  priority_queue for edges with cost. 
-An vector hold the vertex. One vertex could connect to multiple vertices, which means one vertex can have several edges.
+An vector hold the vertex. One vertex could connect to multiple vertices, which means one vertex can have several edges.<br>
 The other Class execute the find and merge function.
 
 1. Project files include: kruskal.cpp, graph.cpp, graph.h <br>

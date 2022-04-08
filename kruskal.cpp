@@ -1,5 +1,5 @@
 /*!
-*   \mainpage Project2 - Kruskal Minmum Spanning Tree
+*   \mainpage Kruskal Minmum Spanning Tree
 *    1. Use a priority_queue of edges which consist of all the edges in the graph and 
 *       each item of a priority_queue will contain 3 parameters: \n source, destination 
 *       and the cost of an edge between the source and destination.\n 
@@ -11,9 +11,6 @@
 *    3. The time complicity:\n
 *       Look up every edge is O(E), for each edge go through find function is O(logV).\n
 *       Therefore, the total time complicity is O(ElogV).
-*
-*    Professor:   Dr. Speigel <br>
-*    Course:      CSC402 010 <br>
 *
 *   \author    Pei Hua Lin
 *
@@ -107,7 +104,7 @@ bool openFile(ifstream &inf, string fileName)
     }
     
     inf.open(fileName.c_str());
-    if (!inf) 				// File not found
+    if (!inf) 	      // File not found
 	return(0);
     else 
 	return(1);
